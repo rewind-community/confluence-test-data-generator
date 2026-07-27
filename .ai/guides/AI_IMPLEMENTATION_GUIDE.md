@@ -20,7 +20,8 @@ AI assistance is most effective for:
 
 ### 1. Create an Implementation Plan
 
-Before starting, create a detailed plan in `.ai/plans/<initiative-name>/PLAN.md`:
+Before starting, create a detailed plan in the docs vault under this project's folder
+(plans and design documents are not tracked in this repo):
 
 ```markdown
 # Implementation Plan: <Initiative Name>
@@ -84,7 +85,7 @@ Before marking any task complete:
 Keep these files updated as work progresses:
 - `CLAUDE.md` - Technical patterns, API gotchas, file structure
 - `README.md` - User-facing documentation
-- `.ai/plans/` - Implementation plan status
+- The implementation plan in the docs vault - status and learnings
 
 ## Patterns for This Project
 
