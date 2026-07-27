@@ -542,7 +542,7 @@ Based on [Atlassian's sizing guide](https://confluence.atlassian.com/enterprise/
 - `requests>=2.31.0`: Sync HTTP library
 
 ### Development
-- `ruff>=0.4.0`: Linting and formatting
+- `ruff==0.16.0`: Linting and formatting (pinned to match `lint.yml` — bump both together)
 - `pytest>=8.0.0`: Test framework
 - `pytest-cov>=4.1.0`: Coverage reporting
 - `pytest-asyncio>=0.23.0`: Async test support
