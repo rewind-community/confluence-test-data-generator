@@ -6,20 +6,17 @@ This directory contains plans, guides, and resources for AI-assisted implementat
 
 ```
 .ai/
-├── plans/                    # Implementation plans organized by initiative
-│   └── <initiative-name>/    # One folder per major initiative
-│       ├── PLAN.md           # The main implementation plan
-│       └── <resources>       # Supporting files (specs, design docs, etc.)
+├── decisions/                # Architecture decision records
 ├── guides/
 │   └── AI_IMPLEMENTATION_GUIDE.md
 └── README.md
 ```
 
-## Active Plans
+## Plans and design documents
 
-| Initiative | Status | Description |
-|------------|--------|-------------|
-| [Confluence Test Data Generator](plans/confluence-test-data-generator/PLAN.md) | In Progress | CLI tool to generate synthetic Confluence Cloud data at scale |
+Implementation plans and design documents are **not kept in this repo** — they live in
+the team docs vault, under this project's folder. Only decision records and guides that
+stay useful alongside the code are tracked here.
 
 ## Quick Links
 
