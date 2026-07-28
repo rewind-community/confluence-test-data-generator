@@ -1,5 +1,8 @@
 # Development dependencies
-ruff>=0.4.0
+# The ruff pin below is the single source of truth for its version: lint.yml installs
+# ruff using this file as a pip constraints file, so CI and local development cannot
+# drift. Bump it here and CI follows automatically.
+ruff==0.16.0
 pytest>=8.0.0
 pytest-cov>=4.1.0
 pytest-asyncio>=0.23.0
