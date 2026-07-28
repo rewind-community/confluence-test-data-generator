@@ -1,6 +1,7 @@
 # Development dependencies
-# ruff is pinned to match .github/workflows/lint.yml exactly. A floating ruff means
-# developers format with a different version than CI enforces. Keep these two in sync.
+# The ruff pin below is the single source of truth for its version: lint.yml installs
+# ruff using this file as a pip constraints file, so CI and local development cannot
+# drift. Bump it here and CI follows automatically.
 ruff==0.16.0
 pytest>=8.0.0
 pytest-cov>=4.1.0
