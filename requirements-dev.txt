@@ -3,7 +3,7 @@
 # ruff using this file as a pip constraints file, so CI and local development cannot
 # drift. Bump it here and CI follows automatically.
 ruff==0.16.0
-pytest>=8.0.0
+pytest>=9.1.1
 pytest-cov>=4.1.0
 pytest-asyncio>=1.4.0
 pytest-xdist>=3.8.0
