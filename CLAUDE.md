@@ -542,7 +542,7 @@ Based on [Atlassian's sizing guide](https://confluence.atlassian.com/enterprise/
 - `requests>=2.31.0`: Sync HTTP library
 
 ### Development
-- `ruff==0.16.0`: Linting and formatting (pinned here in `requirements-dev.txt`; CI installs this exact version from it, so bump it in one place)
+- `ruff`: Linting and formatting. **Pinned in `requirements-dev.txt`, which is the single version of record** — `lint.yml` installs ruff using that file as a pip constraints file, so CI and local development cannot drift. Deliberately not restated here: this doc said `0.16.0` long after the pin had moved to `0.16.4`, because Dependabot bumps the pin and nothing bumps the prose. Read the version from `requirements-dev.txt`.
 - `pytest>=8.0.0`: Test framework
 - `pytest-cov>=4.1.0`: Coverage reporting
 - `pytest-asyncio>=0.23.0`: Async test support
